@@ -23,19 +23,23 @@ Every cycle of the E4AI Framework culminates in measurable business impact and a
    * Target variable: `Churn' (binary: yes/no).
    * Cleaning and transformation: imputation, coding, normalization and creation of composite variables based on business knowledge.
 
-## 2. **Data Exploration and Analysis (EDA)**
+## 2. Data Exploration and Analysis (EDA)
 
    * Identification of important churn patterns: for example, *month-to-month* contracts showed churn rates of over 50%.
    * Customers with payment by *electronic check* or without technical support were associated with higher churn rates.
+     ![image](https://github.com/user-attachments/assets/e1617718-807d-4157-85fa-423a035dd65c)
+     ![image](https://github.com/user-attachments/assets/7ceeff95-db9b-483c-baf7-cebdf80c6dba)
+     ![image](https://github.com/user-attachments/assets/bd06a0fd-73b7-4e13-8198-2177e5e40130)
+     ![image](https://github.com/user-attachments/assets/08ec42c3-a58b-4948-a6ac-557380330cc1)
 
-## 3. **Feature Engineering** 3.
 
+## 3. Feature Engineering
    * Creation of variables such as:
 
      * `ServiceScore`: time + number of services contracted.
      * `ServicesPerMonth_log`: correction of the distribution of the rate of use of services per month.
 
-# 4. **Modeling and Evaluation
+## 4. Modeling and Evaluation
 
    * Models used: **XGBoost, CatBoost, RandomForest, Logistic Regression and Decision Tree**.
    * Techniques applied:
@@ -44,7 +48,7 @@ Every cycle of the E4AI Framework culminates in measurable business impact and a
      * Adjustment of the decision threshold based on a cost-benefit matrix.
      * Cross-validation and test set evaluation.
     
-# 5. Metrics Evaluated
+## 5. Metrics Evaluated
 The primary goal of this churn prediction project was to build a model that not only accurately predicts customer churn but also provides tangible business value. Therefore, our evaluation focused on metrics directly aligned with profitability and proactive customer retention strategies, moving beyond simple accuracy.
 
 Key metrics used for model assessment include:
@@ -55,7 +59,7 @@ EMPC (Expected Maximum Profit Criterion): This custom business-centric metric qu
 
 ROC AUC & PR AUC: These were used to assess the model's overall discriminatory power and its performance on the minority class (churners) in an imbalanced dataset, respectively.
 
-Model Performance Summary:
+## 6. Model Performance Summary:
 
 Our model consistently demonstrated strong generalization capabilities across validation and unseen test sets.
 
