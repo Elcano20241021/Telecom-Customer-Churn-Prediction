@@ -29,8 +29,7 @@ Every cycle of the E4AI Framework culminates in measurable business impact and a
    * Customers with payment by *electronic check* or without technical support were associated with higher churn rates.
      ![image](https://github.com/user-attachments/assets/e1617718-807d-4157-85fa-423a035dd65c)
      ![image](https://github.com/user-attachments/assets/7ceeff95-db9b-483c-baf7-cebdf80c6dba)
-     ![image](https://github.com/user-attachments/assets/bd06a0fd-73b7-4e13-8198-2177e5e40130)
-     ![image](https://github.com/user-attachments/assets/08ec42c3-a58b-4948-a6ac-557380330cc1)
+     ![image](https://github.com/user-attachments/assets/60b8a7aa-03f7-42f5-88bc-264eb9ceeff7)
 
 
 ## 3. Feature Engineering
