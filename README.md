@@ -62,27 +62,50 @@ ROC AUC & PR AUC: These were used to assess the model's overall discriminatory p
 
 Our model consistently demonstrated strong generalization capabilities across validation and unseen test sets.
 
-High Churner Detection (Recall): The model achieved a Recall of 63% for the churn class on the test set, meaning it successfully identified nearly two-thirds of customers who would actually churn. This validates our strategic focus on minimizing customer loss.
+High Churner Detection (Recall): The model achieved a Recall of 90% for the churn class on the test set, meaning it successfully identified nearly two-thirds of customers who would actually churn. This validates our strategic focus on minimizing customer loss.
 
-Optimized Business Profitability (EMPC): Critically, the EMPC reached an impressive 7.15 on the test set, indicating a robust positive expected profit from deploying the model. This highlights the model's direct contribution to business objectives by effectively balancing the costs and benefits of retention efforts.
+Optimized Business Profitability (EMPC): Critically, the EMPC reached an impressive $113.2907 on the test set, indicating a robust positive expected profit from deploying the model. This highlights the model's direct contribution to business objectives by effectively balancing the costs and benefits of retention efforts.
 
-Robust Generalization: While a trade-off was observed in Precision for the churn class (due to the emphasis on Recall), the model's overall performance, including ROC AUC (0.82) and F2-Score (0.61) on the test set, confirms its reliability and practical applicability.
+Robust Generalization: While a trade-off was observed in Precision for the churn class (due to the emphasis on Recall), the model's overall performance, including ROC AUC and F2-Score on the test set, confirms its reliability and practical applicability.
 
 The evaluation confirms that the chosen metrics effectively guided the model development, resulting in a solution that is well-aligned with business priorities for churn reduction and profit maximization.
+| Metric       | Validation | Test   | Change     |
+| ------------ | ---------- | ------ | ---------- |
+| **Recall** | 0.87       | 0.90   | ✅ Slight ↑  |
+| **Precision** | 0.44     | 0.44 | ✅ Slight ↑ |
+| **ROC AUC**  | 0.815     | 0.830 | ✅ Slight ↑ |
+| **EMPC**     | 106.66     | 113.29 | ✅ Slight ↑ |
+
 
 # SHAP Values - 
 Interpretability: allows us to explain what led to the customer churn forecast.
-![image](https://github.com/user-attachments/assets/01e13f32-ef19-437f-a6a1-fa35e57b810a)
+<img width="753" height="653" alt="image" src="https://github.com/user-attachments/assets/300e789b-1e3e-4a55-974d-0dedbe86cedc" />
+
 
 # Conclusions and Impact
 
 The final model achieved:
 
-Recall: 63%
-F2 Score: 0.609
-EMPC: 7.15 → means an average return of $7.15 per customer approached correctly.
+Confusion Matrix:
+[[599 434]
+ [ 38 336]]
+ROC AUC: 0.8298
+PR AUC: 0.6022
+F1 Score: 0.5874
+F2 Score: 0.7414
+EMPC: $113.2907
+<img width="1183" height="484" alt="image" src="https://github.com/user-attachments/assets/5ed31700-af9a-4267-9fc8-e55215463b5f" />
+
 
 Data-driven strategic decisions:
+
+| **Scenario** | **Count** | **Cost/Profit** | **Total Impact** |
+| --- | --- | --- | --- |
+| **True Positives (TP)** | 336 | +$560 | **+$188,160** |
+| **False Positives (FP)** | 434 | -$40 | **-$17,360** |
+| **False Negatives (FN)** | 38 | -$300 | **-$11,400** |
+| **True Negatives (TN)** | 599 | $0 | **$0** |
+| **Net Profit (EMPC × 1407)** | **$113.29 × 1407 ≈ $159,400** |  |  |
 
 24% reduction in unnecessary retention actions.
 Increased campaign effectiveness by targeting high-risk customers.
