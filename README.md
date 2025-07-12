@@ -6,7 +6,7 @@ Therefore, The aims of this project is to build an effective predictive model, b
 
 # Methodology: The E4AI Framework
 Our project adheres to the E4AI methodology, a practical and structured framework designed to transform data into measurable business value. E4AI guides the entire lifecycle of a Data Science and Artificial Intelligence initiative, from problem understanding to implementation and sustainability.
-
+<img width="1200" height="1200" alt="E4AIFramework (1)" src="https://github.com/user-attachments/assets/515995c5-b41b-4c84-acf8-4491e603cfb9" />
 1. EXPLORE: Gain a deep understanding of the business context, identify challenges, and map available data.
 Key Steps: Business Understanding (clarifying goals and KPIs), Data Exploration (EDA for statistical profiling, quality, and structure), and Opportunity Discovery (identifying patterns and areas for impact).
 2. EXPLAIN: Align analytical findings with the business context, clarify project objectives, and refine the understanding of expected outcomes, ensuring data exploration is connected to business reality.
