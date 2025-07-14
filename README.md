@@ -90,7 +90,8 @@ The evaluation confirms that the chosen metrics effectively guided the model dev
 
 # SHAP Values - 
 Interpretability: allows us to explain what led to the customer churn forecast.
-<img width="753" height="653" alt="image" src="https://github.com/user-attachments/assets/300e789b-1e3e-4a55-974d-0dedbe86cedc" />
+<img width="754" height="773" alt="SHAF PLOT" src="https://github.com/user-attachments/assets/c07bb4b6-081f-468c-b3aa-9baf14cc39fd" />
+
 
 
 # Conclusions and Impact
