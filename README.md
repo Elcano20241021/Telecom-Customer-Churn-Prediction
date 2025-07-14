@@ -1,11 +1,19 @@
 <img width="1200" height="800" alt="pic11_AI_BI_article" src="https://github.com/user-attachments/assets/e3e2b2d0-6c24-4ff0-a921-71fb734ce1c5" />
 
 # Telecom-Customer-Churn-Prediction
-Customer retention campaigns increasingly rely on predictive models to detect potential churners in a vast customer base. From the perspective of machine learning, the task of predicting customer churn can be presented as a binary classification problem. Using data on historic behavior, classification algorithms are built with the purpose of accurately predicting the probability of a customer defecting. The predictive churn models are then commonly selected based on accuracy related performance measures such as the area under the ROC curve (AUC). However, these models are often not well aligned with the core business requirement of profit maximization, in the sense that, the models fail to take into account not only misclassification costs, but also the benefits originating from a correct classification. 
+Customer retention campaigns increasingly rely on predictive models to detect potential churners in a vast customer base. This project presents a **business-aligned, interpretable machine learning pipeline** to predict customer churn in the telecom industry, moving beyond traditional accuracy metrics to focus on **profitability and strategic actionability**.
+From the perspective of machine learning, the task of predicting customer churn can be presented as a binary classification problem. Using data on historic behavior, classification algorithms are built with the purpose of accurately predicting the probability of a customer defecting. The predictive churn models are then commonly selected based on accuracy related performance measures such as the area under the ROC curve (AUC). However, these models are often not well aligned with the core business requirement of profit maximization, in the sense that, the models fail to take into account not only misclassification costs, but also the benefits originating from a correct classification. 
 Therefore, The aims of this project is to build an effective predictive model, but with a strategic differential: **aligning the modeling with business objectives, such as profit maximization and efficient retention action**, and not just technical accuracy.
 
 # Methodology: The E4AI Framework
-Our project adheres to the E4AI methodology, a practical and structured framework designed to transform data into measurable business value. E4AI guides the entire lifecycle of a Data Science and Artificial Intelligence initiative, from problem understanding to implementation and sustainability.
+This project follows the **E4AI** methodology, a business-centric lifecycle for AI projects:
+
+1. **Explore** – Business understanding, data profiling (EDA), and KPI alignment.
+2. **Explain** – Insight contextualization, success criteria, stakeholder feedback.
+3. **Engineer** – ML modeling, hyperparameter tuning, decision threshold optimization.
+4. **Empower** – Deployment guidance, SHAP explainability, Power BI integration.
+
+E4AI guides the entire lifecycle of a Data Science and Artificial Intelligence initiative, from problem understanding to implementation and sustainability.
 <img width="1200" height="1200" alt="E4AIFramework (1)" src="https://github.com/user-attachments/assets/515995c5-b41b-4c84-acf8-4491e603cfb9" />
 1. EXPLORE: Gain a deep understanding of the business context, identify challenges, and map available data.
 Key Steps: Business Understanding (clarifying goals and KPIs), Data Exploration (EDA for statistical profiling, quality, and structure), and Opportunity Discovery (identifying patterns and areas for impact).
@@ -16,7 +24,16 @@ Key Steps: Model Development (selecting, training, and optimizing ML/AI algorith
 4. EMPOWER: Ensure long-term adoption, scalability of the solution, and team self-sufficiency.
 Key Steps: Knowledge Transfer (documentation, training, and explainability guides), Deployment, Automation & Monitoring (putting the solution into production, automating pipelines, and ensuring continuous performance), and Building a Data-Driven Culture (fostering analytical adoption in daily decisions).
 
-Every cycle of the E4AI Framework culminates in measurable business impact and a clear path forward for continuous improvement.
+## 📁 Project Structure
+churn-project/
+├── notebooks/
+│ └── Customer_Churn_Classification.ipynb
+├── functions/
+│ ├── Functions.py
+├── data/
+│ └── churn_raw.csv
+├── README.md
+└── requirements.txt
 
 # Project Stages (Overview)
 ## 1. Data Collection and Preparation
@@ -125,5 +142,8 @@ Explore interactive Power BI visualizations designed to enhance data exploration
 Gain deep insights into what drives churn by visualizing feature impacts with SHAP. Understand the underlying drivers of customer churn through interpretable AI with this SHAP impact visualization. This dashboard decodes your predictive model’s logic, highlighting how individual features contribute to churn predictions—empowering analysts and decision-makers with transparent AI insights.
 **Power BI Dashboard :** https://app.powerbi.com/view?r=eyJrIjoiMDVmM2Q3MzYtOGQzNC00YWQ2LTgzYzEtNjk0OTkxMGI2YzMyIiwidCI6ImU0YmQ2OWZmLWU2ZjctNGMyZS1iMjQ3LTQxYjU0YmEyNDkwZSIsImMiOjh9&embedImagePlaceholder=true
 
-
+📬 Contact & Contributions
+For questions or contributions, reach out to:
+Elcano Elísio dos Santos Gaspar — 20241021@novaims.unl.pt
+LinkedIn: https://www.linkedin.com/in/elcanogaspar/
 
