@@ -82,10 +82,10 @@ Robust Generalization: While a trade-off was observed in Precision for the churn
 The evaluation confirms that the chosen metrics effectively guided the model development, resulting in a solution that is well-aligned with business priorities for churn reduction and profit maximization.
 | Metric       | Validation | Test   | Change     |
 | ------------ | ---------- | ------ | ---------- |
-| **Recall** | 0.87       | 0.90   | ✅ Slight ↑  |
-| **Precision** | 0.44     | 0.44 | ✅ Slight ↑ |
+| **Recall** | 0.74       | 0.94   | ✅ great ↑  |
+| **Precision** | 0.69     | 0.69 | ✅ equal --> |
 | **ROC AUC**  | 0.815     | 0.830 | ✅ Slight ↑ |
-| **EMPC**     | 106.66     | 113.29 | ✅ Slight ↑ |
+| **EMPC**     | 106.91     | 129.89 | ✅ Slight ↑ |
 
 
 # SHAP Values - 
@@ -98,13 +98,13 @@ Interpretability: allows us to explain what led to the customer churn forecast.
 The final model achieved:
 
 Confusion Matrix:
-[[599 434]
- [ 38 336]]
-ROC AUC: 0.8298
-PR AUC: 0.6022
-F1 Score: 0.5874
-F2 Score: 0.7414
-EMPC: $113.2907
+[[544 489]
+ [ 23 351]]
+ROC AUC: 0.8367
+PR AUC: 0.6027
+F1 Score: 0.5783
+F2 Score: 0.7513
+EMPC: 120.8955
 <img width="1183" height="484" alt="image" src="https://github.com/user-attachments/assets/5ed31700-af9a-4267-9fc8-e55215463b5f" />
 
 
