@@ -125,10 +125,10 @@ The project validates that AI only generates value when guided by BI - when the 
 # Power BI visuals
 Explore interactive Power BI visualizations designed to enhance data exploration and decision-making. Visualize customer churn trends, contract preferences, and revenue impact through intuitive and actionable dashboards.
 
-![Power BI Churn](https://github.com/user-attachments/assets/cc8e74c9-e859-447d-b528-f0cc0ca4e44c)
+![Power BI Churn](https://github.com/user-attachments/assets/e0dfe516-b0ca-469c-8fe7-34846c1d8bca)
 **Page 1:** Gain a high-level view of customer churn dynamics, key behavioral drivers, and the financial impact of AI-powered predictions. This interactive dashboard offers a comprehensive diagnostic and predictive lens into churn, integrating segmentation by service features, payment methods, and contract types.
 
-![Power BI Churn 2](https://github.com/user-attachments/assets/d052e6f6-cac4-42bd-bc48-427cb6d4384f)
+![Power BI Churn 2](https://github.com/user-attachments/assets/dc4c1041-a457-47da-82e3-a09652053248)
 Gain deep insights into what drives churn by visualizing feature impacts with SHAP. Understand the underlying drivers of customer churn through interpretable AI with this SHAP impact visualization. This dashboard decodes your predictive model’s logic, highlighting how individual features contribute to churn predictions—empowering analysts and decision-makers with transparent AI insights.
 
 **Power BI Dashboard :**
