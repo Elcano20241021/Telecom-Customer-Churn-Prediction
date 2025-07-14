@@ -25,15 +25,7 @@ Key Steps: Model Development (selecting, training, and optimizing ML/AI algorith
 Key Steps: Knowledge Transfer (documentation, training, and explainability guides), Deployment, Automation & Monitoring (putting the solution into production, automating pipelines, and ensuring continuous performance), and Building a Data-Driven Culture (fostering analytical adoption in daily decisions).
 
 ## 📁 Project Structure
-churn-project/
-├── notebooks/
-│ └── Customer_Churn_Classification.ipynb
-├── functions/
-│ ├── Functions.py
-├── data/
-│ └── churn_raw.csv
-├── README.md
-└── requirements.txt
+churn-project/                                                                                                                                                               ├── notebooks/                                                                                                                                                               │ └── Customer_Churn_Classification.ipynb                                                                                                                                    ├── functions/                                                                                                                                                               │ ├── Functions.py                                                                                                                                                           ├── data/                                                                                                                                                                    │ └── churn_raw.csv                                                                                                                                                          ├── README.md                                                                                                                                                                └── requirements.txt
 
 # Project Stages (Overview)
 ## 1. Data Collection and Preparation
