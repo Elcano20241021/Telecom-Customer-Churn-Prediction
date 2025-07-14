@@ -112,11 +112,10 @@ Data-driven strategic decisions:
 
 | **Scenario** | **Count** | **Cost/Profit** | **Total Impact** |
 | --- | --- | --- | --- |
-| **True Positives (TP)** | 336 | +$560 | **+$188,160** |
-| **False Positives (FP)** | 434 | -$40 | **-$17,360** |
-| **False Negatives (FN)** | 38 | -$300 | **-$11,400** |
-| **True Negatives (TN)** | 599 | $0 | **$0** |
-| **Net Profit (EMPC × 1407)** | **$113.29 × 1407 ≈ $159,400** |  |  |
+| **True Positives (TP)** | 351 | +$560 | **+$196,560** |
+| **False Positives (FP)** | 489 | -$40 | **-$19,560** |
+| **False Negatives (FN)** | 23 | -$300 | **-$6,900** |
+| **True Negatives (TN)** | 544 | $0 | **$0** |
 
 24% reduction in unnecessary retention actions.
 Increased campaign effectiveness by targeting high-risk customers.
